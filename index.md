@@ -14,7 +14,8 @@ Additionally, ensure you have the following:
    - Make sure you (re)name your resume *index.md* or GitHub won't know to use it
 - A GitHub account.
    - You can sign up at [GitHub](https://github.com/)
-- Additional resources can be found in the [Resources Section](#resources)
+
+Additional resources can be found in the [Resources Section](#resources)
 
 ---
 
@@ -129,11 +130,9 @@ Markdown better than a word processor because it offers a simpler and more light
 
 ### Why is my resume not showing up?
 
-If your resume is not showing up:
+If your resume isn't showing up, follow these troubleshooting steps:
 
 - Double-check that your resume file is named *index.md*.
-- Check the settings by going to Settings and selecting Pages from the left.
-- Verify that under **Build and deployment**,**Deploy from branch** is selected under Source
-- Under **Branch**, it should say **main branch /(root)** is selected.
+- Verify that the settings set in [Step 5](#5-enable-github-pages) match those described.
 - Check under the **Actions** tab that there are no errors and the build is deployed.
 - It may take a few minutes for changes to reflect on your hosted resume. If the issue persists, review the GitHub Pages documentation linked in [Resources](#Resources) for troubleshooting tips.
