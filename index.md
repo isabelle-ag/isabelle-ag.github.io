@@ -94,6 +94,8 @@ Additional resources can be found in the [Resources Section](#resources)
 - Check the **Initialize this repository with a with README** option.
 - Click on the **Create Repository** button.
 
+  ![Create Repository](/images/CreateRepo.png)
+
 ---
 
 ### 3. Upload Your Resume
@@ -113,7 +115,10 @@ Additional resources can be found in the [Resources Section](#resources)
 - Under the **Code and automation** section on the left, click **Pages**
 - Under **Source**, select **Deploy from a branch**.
 - Under **Branch**, select **Main** and **/(root)**
+- Make sure your settings match those in the image below.
 - Click on **Save**.
+
+![Pages Settings](/images/pagesSettings.png)
 
 --- 
 
@@ -149,6 +154,10 @@ plugins:
    - The link should be *https://[username].github.io/*
 - Click on the **Visit site** link to view your resume online.
 
+Now your resume should be live:
+
+![Hosted resume gif](/images/hostedSite.gif)
+
 ---
 
 ### 7. Update Resume
@@ -159,7 +168,9 @@ plugins:
 - Click on your *index.md*.
 - Once the file has loaded, click the pencil in the top right corner.
 - Remember to use Markdown formatting; you can click on the **Preview** tab across the top to preview your changes.
-    > Before committing changes to your resume file, it's helpful to preview them to verify your changes. While GitHub provides a preview tab for viewing Markdown syntax, it's important to note that this preview won't display the site with the chosen theme. However, it can still be useful for verifying the correctness of Markdown formatting.
+    > Before committing changes to your resume file, it's helpful to preview them to verify your changes. While GitHub provides a preview tab for viewing Markdown syntax, it's important to note that this preview won't display the site with the chosen theme. However, it can still be useful for verifying the correctness of Markdown formatting, as seen below.
+
+ ![Plain markdown preview](/images/mdpreview.png)
 
 - When you're satisfied with your changes, click **Commit Changes** in the top right.
 - It may take a few minutes for the website to update. You can view the progress and verify there are no errors by navigating to the **Actions** tab of your repository.
@@ -214,4 +225,4 @@ If your resume isn't showing up, follow these troubleshooting steps:
 ## Author
 
 Isabelle Anderson-Gregoire
-[isabelle-ag](https://github.com/isabelle-ag)
+[/isabelle-ag](https://github.com/isabelle-ag)
