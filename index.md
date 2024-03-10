@@ -63,13 +63,13 @@ Etter argues that distributed version control systems, like GitHub, are essentia
 To keep this process simple and streamlined, the only application you will need is your browser.
 Additionally, ensure you have the following:
 
-- A resume formatted in Markdown, saved as *index.md*
+- A resume formatted in Markdown, saved as *index.md*.
    - You can use an online Markdown editor like [StackEdit](https://stackedit.io/app#/) to help with syntax.
-   - Make sure you (re)name your resume *index.md* or GitHub won't know to use it
+   - Make sure you (re)name your resume *index.md* or GitHub won't know to use it.
 - A GitHub account.
-   - You can sign up at [github.com](https://github.com/)
+   - You can sign up at [github.com](https://github.com/).
 
-Additional resources can be found in the [Resources Section](#resources)
+Additional resources can be found in the [Resources Section](#resources).
 
 ---
 
@@ -89,7 +89,7 @@ Additional resources can be found in the [Resources Section](#resources)
 - Click on the **+** icon in the top-right corner of the GitHub webpage and select **New repository**.
 - Name your repository *[yourgithubname].github.io*, putting your username in the placeholder.
   
-  `Important: Convert any uppercase letters in your username to lowercase when creating your repository`
+  `Important: Convert any uppercase letters in your username to lowercase when creating your repository.`
 - Make sure the repository is set to public.
 - Check the **Initialize this repository with a with README** option.
 - Click on the **Create Repository** button.
@@ -105,16 +105,16 @@ Additional resources can be found in the [Resources Section](#resources)
 - Click **Upload files**.
 - Click on the **choose your files** option.
 - Navigate to the location of your resume and click upload.
-- Write a meaningful commit message, for example: *Uploaded resume as index.md*
+- Write a meaningful commit message, for example: *Uploaded resume as index.md*.
 
 ---
 
 ### 4. Enable GitHub Pages
 
 - Navigate to the **Settings** tab of your repository.
-- Under the **Code and automation** section on the left, click **Pages**
+- Under the **Code and automation** section on the left, click **Pages**.
 - Under **Source**, select **Deploy from a branch**.
-- Under **Branch**, select **Main** and **/(root)**
+- Under **Branch**, select **Main** and **/(root)**.
 - Make sure your settings match those in the image below.
 - Click on **Save**.
 
@@ -129,7 +129,7 @@ By default, GitHub works with Jekyll, a static site generator that will simplify
 - In order to set a theme, we need to add a configuration file.
 - From the **Code** tab of your repository (located near the top of the page), click on the same **+** button you used to upload your resume.
 - Select **Create new file**.
-- At the top of the page, name the file *_config.yml*
+- At the top of the page, name the file *_config.yml*.
     > The _config.yml file is a YAML configuration file used by Jekyll, the engine behind GitHub Pages. This allows users to specify settings and customize their site.
 - Paste the following into the body of the file:
 
@@ -143,7 +143,7 @@ plugins:
 
 - Set your page title, I recommend using your full name.
 - Optional: The description field is optional. If you choose to use it, you can put anything there. I recommend having your contact information there. I put *[email] | [github link]*,
-- Click on the **Commit changes...** button in the top right of the page
+- Click on the **Commit changes...** button in the top right of the page.
 - Write a meaningful commit message, like *Create _config.yml* and click commit.
 
 ---
@@ -151,7 +151,7 @@ plugins:
 ### 6. Access Your Hosted Resume
 
 - Once GitHub Pages is enabled, you'll see a box with a link to your hosted site.
-   - The link should be *https://[username].github.io/*
+   - The link should be *https://[username].github.io/*,
 - Click on the **Visit site** link to view your resume online.
 
 Now your resume should be live:
@@ -164,7 +164,7 @@ Now your resume should be live:
 
 - To make changes, you simply need to update your *index.md* file.
 - To keep the process simple, we can make changes directly on the GitHub webpage.
-- Navigate to your repository on [GitHub](https://github.com), this should be github.com/[username]/[username].github.io
+- Navigate to your repository on [GitHub](https://github.com), this should be github.com/[username]/[username].github.io.
 - Click on your *index.md*.
 - Once the file has loaded, click the pencil in the top right corner.
 - Remember to use Markdown formatting; you can click on the **Preview** tab across the top to preview your changes.
