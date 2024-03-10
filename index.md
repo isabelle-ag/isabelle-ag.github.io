@@ -172,7 +172,7 @@ Now your resume should be live:
 
  ![Plain markdown preview](/images/mdpreview.png)
 
-- When you're satisfied with your changes, click **Commit Changes** in the top right.
+- When you're satisfied with your changes, click **Commit changes...** in the top right.
 - It may take a few minutes for the website to update. You can view the progress and verify there are no errors by navigating to the **Actions** tab of your repository.
 
 ## Resources
