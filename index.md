@@ -31,7 +31,7 @@ Additionally, ensure you have the following:
 
 ### 2. Create a New Repository
 
-- Click on the **+** icon in the top-right corner of the GitHub webpage and select *New repository*.
+- Click on the **+** icon in the top-right corner of the GitHub webpage and select **New repository**.
 - Name your repository *[yourgithubname].github.io*, putting your username in the placeholder.
   
   `*Important:* Convert any uppercase letters in your username to lowercase`
@@ -44,19 +44,19 @@ Additionally, ensure you have the following:
 ### 3. Upload Your Resume
 
 - You should now be in your new repository's main page, containing only a README.md file.
-- To upload a file, click on the **+** button, located in between the *Go to file* and *<> Code* buttons.
-- Click *Upload files*.
-- Click on the *choose your files* option.
+- To upload a file, click on the **+** button, located in between the **Go to file** and **<> Code** buttons.
+- Click **Upload files**.
+- Click on the **choose your files** option.
 - Navigate to the location of your resume and click upload.
-- Write a meaningful commit message, for example: *Upload index.md*
+- Write a meaningful commit message, for example: *Uploaded resume as index.md*
 
 ---
 
 ### 4. Add Configurations
 
 - In order to choose a theme, we need to add a configuration file.
-- From the *Code* page of your repository, click on the same **+** button you used to upload your resume.
-- Select *Create new file*.
+- From the **Code** tab of your repository (located near the top of the page), click on the same **+** button you used to upload your resume.
+- Select **Create new file**.
 - At the top of the page, name the file *_config.yml*
 - Paste the following into the body of the file:
 
@@ -70,7 +70,7 @@ plugins:
 
 - Put your full name in the title field.
 - Optional: The description field is optional. If you choose to use it, you can put anything there. I recommend having your contact information there. I put *[email] | [github link]*,
-- Click on the *Commit changes...* button in the top right of the page
+- Click on the **Commit changes...** button in the top right of the page
 - Write a meaningful commit message, like *Create _config.yml* and click commit.
 
 ---
@@ -101,9 +101,9 @@ plugins:
 - Click on your *index.md*.
 - Once the file has loaded, click the pencil in the top right corner.
 - Remember to use Markdown formatting; you can click on the **Preview** tab across the top to preview your changes.
-   - This can be used to verify your Markdown syntax, but this won't preview the website with the theme, just the file in plain Markdown.
+   - The preview can be used to verify your Markdown syntax, but this won't preview the website with the theme, just the file in plain Markdown.
 - When you're satisfied with your changes, click **Commit Changes** in the top right.
-- It will take a minute for the website to update. You can view the progress and verify there are no errors by navigating to the **Actions** tab of your repository.
+- It may take a few minutes for the website to update. You can view the progress and verify there are no errors by navigating to the **Actions** tab of your repository.
 
 ## Resources
 
@@ -133,7 +133,7 @@ If your resume is not showing up:
 
 - Double-check that your resume file is named *index.md*.
 - Check the settings by going to Settings and selecting Pages from the left.
-- Verify that under **Build and deployment**,*Deploy from branch* is selected under Source
-- Under **Branch**, it should say *main branch /(root)* is selected.
+- Verify that under **Build and deployment**,**Deploy from branch** is selected under Source
+- Under **Branch**, it should say **main branch /(root)** is selected.
 - Check under the **Actions** tab that there are no errors and the build is deployed.
-- It may take a few minutes for changes to reflect on your hosted resume. If the issue persists, review the GitHub Pages documentation linked in [More Resources](#More-Resources) for troubleshooting tips.
+- It may take a few minutes for changes to reflect on your hosted resume. If the issue persists, review the GitHub Pages documentation linked in [Resources](#Resources) for troubleshooting tips.
