@@ -5,6 +5,7 @@
 ### Contents:
 
  - [Purpose](#Purpose)
+ - [Lessons From Etter](#Lessons-from-etter)
  - [Instructions](#Instructions)
  - [Resources](#Resources)
  - [FAQs](#FAQs)
@@ -15,7 +16,13 @@
 
 This guide provides step-by-step instructions on how to host a resume on GitHub Pages while adhering to the general principles of technical writing as explained in Andrew Etter's book, [Modern Technical Writing: An Introduction to Software Documentation](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS). By following these principles, we ensure clarity and effectiveness in our instructions for hosting your resume on GitHub Pages.
 
-Key principles we'll follow are in this guide:
+## Lessons from Etter
+
+### Tools
+
+The tools we will use that Etter describes in his book are GitHub, GitHub Pages, Jekyll, and Markdown.
+
+To highlight some of the key principles from *Modern Technical Writing* that we'll follow in this guide.
 
 ### Define the Audience
 
@@ -37,7 +44,7 @@ We strive for consistency in our formatting:
 
 Furthermore, we use headings to ensure this guide is easy to follow.
 
-### Build a Website
+### Build a Static Website
 
 Hosting your resume on a website rather than sending it as a PDF has several benefits.
 
@@ -45,13 +52,11 @@ Hosting your resume on a website rather than sending it as a PDF has several ben
 - Elimiates compatibility issues.
 - Easy to share, all you need to send is the link!
 
+Etter advocates for using static websites over dynamic ones where possible for many reasons, including the simplicity to create and maintain, requiring only the GitHub webpage. Additionally, static sites are much quicker to load and are far more beginner friendly.
+
 ### Use Distributed Version Control
 
 Etter argues that distributed version control systems, like GitHub, are essential. GitHub allows for simple editing, remote access, ease in repairing mistakes and collaboration, and will host our site for us!
-
-### Use Static Websites
-
-Etter advocates for using static websites where possible for many reasons, including the simplicity to create and maintain, requiring only the GitHub webpage.
 
 ## Prerequisites
 
@@ -166,6 +171,7 @@ plugins:
 ### Markdown
 
 - [Markdown Tutorial](https://www.markdowntutorial.com/)
+- [Markdown Guide](https://www.markdownguide.org)
 - [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 
 ### GitHub
