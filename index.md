@@ -6,11 +6,15 @@ This guide provides step-by-step instructions on how to host a resume on GitHub 
 
 ## Prerequisites
 
-Before you begin, ensure you have the following:
+To keep this process simple and streamlined, the only application you will need is your browser.
+Additionally, ensure you have the following:
 
-- A resume formatted in Markdown, saved as index.md
-   - Make sure you rename it to index.md
+- A resume formatted in Markdown, saved as *index.md*
+   - You can use an online Markdown editor like [StackEdit](https://stackedit.io/app#/) to help with syntax.
+   - Make sure you (re)name your resume *index.md* or GitHub won't know to use it
 - A GitHub account.
+   - You can sign up at [GitHub](https://github.com/)
+- Additional resources can be found in the [Resources Section](#resources)
 
 ---
 
@@ -18,17 +22,17 @@ Before you begin, ensure you have the following:
 
 ---
 
-### Go to GitHub
+### 1. Go to GitHub
 
 - Open GitHub at [github.com](https://github.com).
 - If not already logged in, log in to your account.
 
 ---
 
-### Create a New Repository
+### 2. Create a New Repository
 
 - Click on the **+** icon in the top-right corner of the GitHub webpage and select *New repository*.
-- Name your repository *<yourgithubname>.github.io*, putting your username in the placeholder.
+- Name your repository *[yourgithubname].github.io*, putting your username in the placeholder.
   
   `*Important:* Convert any uppercase letters in your username to lowercase`
 - Make sure the repository is set to public.
@@ -37,7 +41,7 @@ Before you begin, ensure you have the following:
 
 ---
 
-### Upload Your Resume
+### 3. Upload Your Resume
 
 - You should now be in your new repository's main page, containing only a README.md file.
 - To upload a file, click on the **+** button, located in between the *Go to file* and *<> Code* buttons.
@@ -48,7 +52,7 @@ Before you begin, ensure you have the following:
 
 ---
 
-### Add Configurations
+### 4. Add Configurations
 
 - In order to choose a theme, we need to add a configuration file.
 - From the *Code* page of your repository, click on the same **+** button you used to upload your resume.
@@ -65,13 +69,13 @@ plugins:
 ```
 
 - Put your full name in the title field.
-- Optional: The description field is optional. If you choose to use it, you can put anything there. I recommend having your contact information there. I put *<email> | <github link>*,
+- Optional: The description field is optional. If you choose to use it, you can put anything there. I recommend having your contact information there. I put *[email] | [github link]*,
 - Click on the *Commit changes...* button in the top right of the page
 - Write a meaningful commit message, like *Create _config.yml* and click commit.
 
-  ---
+---
 
-### Enable GitHub Pages
+### 5. Enable GitHub Pages
 
 - Navigate to the **Settings** tab of your repository.
 - Under the **Code and automation** section on the left, click **Pages**
@@ -81,18 +85,39 @@ plugins:
 
 --- 
 
-### Access Your Hosted Resume
+### 6. Access Your Hosted Resume
 
 - Once GitHub Pages is enabled, you'll see a box with a link to your hosted site.
+   - The link should be *https://[username].github.io/*
 - Click on the **Visit site** link to view your resume online.
 
 ---
 
-## More Resources
+### 7. Update Resume
+
+- To make changes, you simply need to update your *index.md* file.
+- To keep the process simple, we can make changes directly on the GitHub webpage.
+- Navigate to your repository on [GitHub]<https://github.com>, this should be github.com/[username]/[username].github.io
+- Click on your *index.md*.
+- Once the file has loaded, click the pencil in the top right corner.
+- Remember to use Markdown formatting; you can click on the **Preview** tab across the top to preview your changes.
+   - This can be used to verify your Markdown syntax, but this won't preview the website with the theme, just the file in plain Markdown.
+- When you're satisfied with your changes, click **Commit Changes** in the top right.
+- It will take a minute for the website to update. You can view the progress and verify there are no errors by navigating to the **Actions** tab of your repository.
+
+## Resources
+
+- [Etter's Modern Technical Writing](https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS/)
+
+### Markdown
 
 - [Markdown Tutorial](https://www.markdowntutorial.com/)
-- [GitHub Pages Documentation](https://docs.github.com/en/pages)
-- [Etter's Modern Technical Writing](https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
+- [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+
+### GitHub
+
+- [GitHub Getting Started](https://docs.github.com/en/get-started/)
+- [GitHub Pages Documentation](https://docs.github.com/en/pages/)
 
 ---
 
@@ -106,5 +131,9 @@ Markdown better than a word processor because it offers a simpler and more light
 
 If your resume is not showing up:
 
-- Double-check that your resume file is named correctly and has the ".md" extension.
-- Make sure that GitHub Pages is enabled for your repository and that the correct branch is selected as the source for your site. It may take a few minutes for changes to reflect on your hosted resume. If the issue persists, review the GitHub Pages documentation for troubleshooting tips.
+- Double-check that your resume file is named *index.md*.
+- Check the settings by going to Settings and selecting Pages from the left.
+- Verify that under **Build and deployment**,*Deploy from branch* is selected under Source
+- Under **Branch**, it should say *main branch /(root)* is selected.
+- Check under the **Actions** tab that there are no errors and the build is deployed.
+- It may take a few minutes for changes to reflect on your hosted resume. If the issue persists, review the GitHub Pages documentation linked in [More Resources](#More-Resources) for troubleshooting tips.
