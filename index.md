@@ -35,7 +35,7 @@ Additional resources can be found in the [Resources Section](#resources)
 - Click on the **+** icon in the top-right corner of the GitHub webpage and select **New repository**.
 - Name your repository *[yourgithubname].github.io*, putting your username in the placeholder.
   
-  `*Important:* Convert any uppercase letters in your username to lowercase`
+  `Important: Convert any uppercase letters in your username to lowercase`
 - Make sure the repository is set to public.
 - Check the **Initialize this repository with a with README** option.
 - Click on the **Create Repository** button.
@@ -59,6 +59,8 @@ Additional resources can be found in the [Resources Section](#resources)
 - From the **Code** tab of your repository (located near the top of the page), click on the same **+** button you used to upload your resume.
 - Select **Create new file**.
 - At the top of the page, name the file *_config.yml*
+
+  `The _config.yml file is a YAML configuration file used by Jekyll, the engine behind GitHub Pages. This allows users to specify settings and customize their site.`
 - Paste the following into the body of the file:
 
 ```md
@@ -136,3 +138,11 @@ If your resume isn't showing up, follow these troubleshooting steps:
 - Verify that the settings set in [Step 5](#5-enable-github-pages) match those described.
 - Check under the **Actions** tab that there are no errors and the build is deployed.
 - It may take a few minutes for changes to reflect on your hosted resume. If the issue persists, review the GitHub Pages documentation linked in [Resources](#Resources) for troubleshooting tips.
+
+### General Troubleshooting Tips
+
+- **Check File Names**: Ensure that your resume file is named correctly as `index.md`. File names are case-sensitive, so make sure it matches exactly.
+- **Verify Repository Settings**: Double-check that the settings configured in [Step 5](#5-enable-github-pages) match those described in the instructions. Ensure that the repository is set to public and the correct branch is selected.
+- **Review GitHub Pages Documentation**: If the issue persists, consult the GitHub Pages documentation for additional troubleshooting tips and guidance.
+
+
